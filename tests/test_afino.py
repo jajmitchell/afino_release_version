@@ -1,10 +1,10 @@
 # tests for AFINO
 import numpy as np
 from numpy.testing import assert_almost_equal
-from afino import afino_series
-from afino import afino_utils
-from afino import afino_spectral_models
-from afino.afino_main_analysis3 import main_analysis
+from afino_code.afino import afino_series
+from afino_code.afino import afino_utils
+from afino_code.afino import afino_spectral_models
+from afino_code.afino.afino_main_analysis3 import main_analysis
 
 def test_afinoseries():
     tt = np.linspace(0,100,101)

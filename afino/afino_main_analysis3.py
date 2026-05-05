@@ -7,8 +7,8 @@ BIC value, are stored in a dictionary and returned.
 
 import numpy as np
 import copy
-from afino import afino_spectral_models
-from afino import afino_model_fitting
+from afino_code.afino import afino_spectral_models
+from afino_code.afino import afino_model_fitting
 
 def main_analysis(ts, model='pow_const', low_frequency_cutoff=None,
                       overwrite_gauss_bounds = None, overwrite_extra_gauss_bounds = None):
@@ -145,7 +145,7 @@ def randomize_initial_guess(model = 'pow_const'):
     gauss_width = (np.random.random(1) / 5.) + 0.05
     gauss_position = np.random.random(1) * (-4) - 1.5
     gauss_amp = np.random.random(1) * (-14)
-    plaw_amp = (np.random.random(1) *20) - 10
+    plaw_amp = (np.random.random(1) * 20) - 10
     plaw_index = np.random.random(1) * (-5) - 1
     background = np.random.random(1) * (-20)
     
