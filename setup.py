@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="afino",
+    name="afino_package",
     version="0.5",
     author="Andrew Inglis",
     author_email="andrew.inglis@nasa.gov",
