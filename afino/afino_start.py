@@ -4,9 +4,9 @@ import datetime
 import numpy as np
 import pickle as pkl
 
-from afino_code.afino.afino_series import AfinoSeries, prep_series
-from afino_code.afino.afino_model_comparison import model_comparison
-from afino_code.afino import afino_spectral_models
+from afino.afino_series import AfinoSeries, prep_series
+from afino.afino_model_comparison import model_comparison
+from afino import afino_spectral_models
 import matplotlib.pyplot as plt
 
 
