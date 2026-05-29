@@ -12,5 +12,5 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/afino_release_version/",
-    packages=setuptools.find_packages(),
+    packages=['afino'],
 )
